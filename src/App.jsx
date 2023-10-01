@@ -1,17 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Header from "./Header";
-import Icons from './Icons';
-import Footer from "./Footer";
+import { Navbar, Header , Icons, Footer } from "./assets/components";
+
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <Icons/>
-      <Footer/>
+    <div className=" w-full h-screen">
 
-    </>
+     {/* <Navbar/> */}
+     <Header/>
+     {/* <Icons/> */}
+     <Footer/>
+
+    </div>
   );
 }
