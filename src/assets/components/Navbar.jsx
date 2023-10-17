@@ -9,7 +9,7 @@ export default function Navbar() {
 
           <div className="font-bold text-xl">Portfolio.</div>
 
-          <ul className="text-sm px-4 py-1 gap-8 flex justify-between   items-center ">
+          <ul className="hidden md:flex text-sm px-4 py-1 gap-8  justify-between   items-center ">
             <li
               className="pr-10 hover:underline decoration-pink-500 decoration-1 underline-offset-4"
             
