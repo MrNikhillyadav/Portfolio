@@ -7,8 +7,8 @@ import { Auth0Provider } from '@auth0/auth0-react';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Auth0Provider
-    domain="{dev-1iy6tvdj36xjib3s.us.auth0.com}"
-    clientId="{GHqkEIBKhDuTVkj7i1IpPOwSsfeMnEAj}"
+    domain="dev-1iy6tvdj36xjib3s.us.auth0.com"
+    clientId="GHqkEIBKhDuTVkj7i1IpPOwSsfeMnEAj"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
