@@ -4,16 +4,16 @@ import {Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div className="bg-[#1b1a1a]  flex flex-col text-white w-full h-[85vh]  justify-between">
+    <div className="bg-[#1b1a1a]  flex flex-col text-white w-full h-[88vh] md:h-[84vh]   justify-between">
       <Navbar/>
-      <div className=" flex flex-col px-[500px] items-center my-20 mx-40 py-3">
+      <div className=" flex flex-col  items-center my-20 mx-40 py-3">
         {/* -----Profile pic here------- */}
         <div className="border-r-4 border-slate-200 w-[160px] shadow-lg shadow-indigo-400/40  h-[160px] hover:scale-105 duration-500 ease-in-out rounded-full p-5  bg-[url('./assets/profile.png')] bg-cover">
           {" "}
         </div>
 
         {/*----- text content----- */}
-        <div className="bg- text-center h-auto  w-[900px] mt-4 mb-5 p-10">
+        <div className="bg- text-center h-auto  w-[80vw]  md:w-[900px] md:mt-20 mt-12 pb-5   ">
           <h3 className="text-sm  py-1 ">Hello, I'm </h3>
           <h2 className="text-3xl   duration-200 ease-in font-bold mb-3  ">
             <span className="hover:underline decoration-pink-500 decoration-1 underline-offset-4">
